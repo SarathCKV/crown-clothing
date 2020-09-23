@@ -10,7 +10,7 @@ const CollectionItem = (props) => {
       />
       <div className="collection-footer">
         <span className="name">{props.name}</span>
-        <span className="price">{props.price}</span>
+        <span className="price">{`₹${props.price}`}</span>
       </div>
     </div>
   );

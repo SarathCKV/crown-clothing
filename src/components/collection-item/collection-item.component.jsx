@@ -11,6 +11,7 @@ const CollectionItem = (props) => {
     <div className="collection-item">
       <div
         className="image"
+        title={props.item.name}
         style={{ backgroundImage: `url(${props.item.imageUrl})` }}
       />
       <div className="collection-footer">

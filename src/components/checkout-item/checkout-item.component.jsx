@@ -28,7 +28,7 @@ const CheckoutItem = (props) => {
           &#10095;
         </div>
       </span>
-      <span className="price">{props.cartItem.price}</span>
+      <span className="price">₹{props.cartItem.price}</span>
       <div
         className="remove-button"
         onClick={() => props.clearItem(props.cartItem)}
